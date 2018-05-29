@@ -1,6 +1,6 @@
-Os três algoritmos mencionados na questão se referem A2, são possíveis formas
-de caminharmos dentro de árvores binárias. 
+Os trÃªs algoritmos mencionados na questÃ£o se referem A2, sÃ£o possÃ­veis formas
+de caminharmos dentro de Ã¡rvores binÃ¡rias. 
 
-O primeiro algoritmo realiza seu caminho iniciando pela subárvore de esquerda, depois pela raiz e por último pela subárvore da esquerda.
-O segundo algoritmo realiza seu caminho iniciando pela raiz, depois pela subárvore da esqueda e por último pela subárvore da direita.
-O terceiro algoritmo faz referência a um caminho que inicia pela subárvore da esquerda, depois pela subárvore da direita e por último pela raiz. 
+O primeiro algoritmo realiza seu caminho iniciando pela subÃ¡rvore de esquerda, depois pela raiz e por Ãºltimo pela subÃ¡rvore da direita.
+O segundo algoritmo realiza seu caminho iniciando pela raiz, depois pela subÃ¡rvore da esqueda e por Ãºltimo pela subÃ¡rvore da direita.
+O terceiro algoritmo faz referÃªncia a um caminho que inicia pela subÃ¡rvore da esquerda, depois pela subÃ¡rvore da direita e por Ãºltimo pela raiz. 
