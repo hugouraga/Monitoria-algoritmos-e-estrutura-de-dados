@@ -28,3 +28,6 @@ Eclipse ou alguma outra IDE com um bom debugger.
             final.append(primeira[j])
 
       return final
+
+Você tem alguma observação de como o uso de Lista Encadeada poderia ser
+otimizado para essa função?
