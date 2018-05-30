@@ -1,1 +1,46 @@
+def produtoMatrizes(matriz1, matrizTransposta):
+    matrizResultante = []
+    aux = []
+    res = 0
+    contador = 0
+    apontador = 0
+    for lista in matriz1:
+        while apontador <= len(matrizTransposta):
+            for elementos in matrizTransposta:
+                print(matrizTransposta[contador][apontador])
+                res += lista[contador] * matrizTransposta[contador][apontador]
+                contador += 1
+            aux.append(res)
+            apontador += 1
+            res = 0
+            contador = 0
+        matrizResultante.append(aux)
+        aux = []
+        apontador = 0
+    return matrizResultante
+def transposta(matriz1,matriz2):
+    print("matriz transposta")
+    matrizTransposta = []
+    contador = 0
+    aux = []
+    while contador < len(matriz2[0]):
+        for elementos in matriz2:
+            aux.append(elementos[contador])
+        contador += 1
+        matrizTransposta.append(aux)
+        aux = []
+    print(matrizTransposta)
+    produtoMatrizes(matriz1,matrizTransposta)
+
+def verificaMatriz(matriz1,matriz2):
+    n_coluna = len(matriz1[0])
+    n_linhas = len(matriz2[0])
+
+    if n_coluna == n_linhas:
+        print("realizando o produto entre as matrizes...")
+        transposta(matriz1,matriz2)
+        return True
+    else:
+        print("não é possível realizar a operação")
+        return False
 
