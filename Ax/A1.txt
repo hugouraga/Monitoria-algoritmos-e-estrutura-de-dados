@@ -1,0 +1,6 @@
+"""
+A função retorna a soma de dois elementos da lista(caso existam valores na lista), tais que a soma é realizada com um elemento e seu anterior caso
+ambos sejam diferentes de None. Caso a lista seja formada só por elementos None, a função retorna a sequência fibonacci no vetor inserido.
+O código é uma otimização pois ele realiza a soma de dois elementos da lista(o atual e seu anterior) utilizando recursão, onde em algumas situações
+não é necessário se percorrer toda a lista.
+"""

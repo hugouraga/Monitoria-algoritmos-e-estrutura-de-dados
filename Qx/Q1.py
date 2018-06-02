@@ -1,3 +1,13 @@
+"""
+Universidade Federal de Pernambuco (UFPE) (http://www.ufpe.br)
+Centro de Informática (CIn) (http://www.cin.ufpe.br)
+Graduando em Sistemas de Informação
+IF969 - Algoritmos e estrutura de dados
+Autor: Hugo Issao Uraga (hiu)
+Email: hiu@cin.ufpe.br
+Data: 2018-06-03
+Copyright(c) 2018 Hugo Issao Uraga
+"""
 def produtoMatrizes(matriz1, matrizTransposta):
     matrizResultante = []
     aux = []
