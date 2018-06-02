@@ -1,4 +1,4 @@
-Os três algoritmos mencionados na questão se referem A2, são possíveis formas
+Os três algoritmos mencionados na questão A2, são possíveis formas
 de caminharmos dentro de árvores binárias. 
 
 O primeiro algoritmo realiza seu caminho iniciando pela subárvore de esquerda, depois pela raiz e por último pela subárvore da direita.
